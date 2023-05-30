@@ -1,0 +1,83 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Header */
+
+.header {
+    width: 100vw;
+    height: 6.4rem;
+    background-color: aqua;
+}
+
+.header__nav {
+    width: inherit;
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__ul--header {
+
+}
+
+.nav__ul--header--options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul__li--header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.li__a--header {
+    text-decoration: none;
+}
+
+.a__img--header {
+    width: 3rem;
+}
+
+.li__span--header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.span__a--header {
+    text-decoration: none;
+}
+
+.span__img--header {
+    width: 2rem;
+}
+
+
+
+.section__img--main--bike {
+    width: 5rem;
+}
