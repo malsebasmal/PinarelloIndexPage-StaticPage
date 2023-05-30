@@ -36,7 +36,7 @@ body {
 
 .header {
     width: 100vw;
-    height: 6.4rem;
+    height: 12vh;
     background-color: var(--White);
 }
 
@@ -50,9 +50,7 @@ body {
     align-items: center;
 }
 
-.nav__ul--header {
-
-}
+.nav__ul--header {}
 
 .nav__ul--header--options {
     display: flex;
@@ -102,8 +100,78 @@ body {
 
 /* Main */
 
+.main {
+    width: 100vw;
+    height: 88vh;
 
+    background-color: var(--White);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__section--main {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 7rem;
+}
+.section__div--main {
+    display: flex;
+    flex-direction: row;
+}
+.div__li--main {
+    list-style: none;
+}
+
+.li__a--main {
+    text-decoration: none;
+    color: var(--Black);
+}
+
+.section__h1--main {
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+.section__div--main--text {
+    width: 21rem;
+    height: 11rem;
+    background-color: var(--White);
+
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.div__p--main {
+    font-size: 1.5rem;
+    font-weight: var(--md);
+}
+
+.section__div--main--boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.div__button--main--1 {
+    width: 21rem;
+    height: 4rem;
+
+    border: 0.1rem solid var(--Black);
+    background-color: var(--White);
+    margin-bottom: 2rem;
+}
+
+.div__button--main--2 {
+    width: 30rem;
+    height: 5rem;
+
+    border: 0.1rem solid var(--Black);
+    background-color: var(--White);
+}
 
 .section__img--main--bike {
-    width: 5rem;
+    width: 55rem;
+    margin-right: 2rem;
 }
