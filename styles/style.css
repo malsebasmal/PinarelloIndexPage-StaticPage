@@ -175,3 +175,30 @@ body {
     width: 55rem;
     margin-right: 2rem;
 }
+
+.header__img--mobile {
+    display: none;
+}
+
+/* @media breakpoints */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        height: 10rem;
+        width: 100vw;
+        background-color: aqua;
+    }
+
+    .header__nav {}
+
+    .nav__ul--header--options {
+        display: none;
+    }
+
+    .header__img--mobile {
+        display: block;
+        width: 10rem;
+    }
+
+
+}
