@@ -1,2 +1,3 @@
 # challenge_layout
-fine
+Page Pinarello static. 
+NO RESPONSIVE
